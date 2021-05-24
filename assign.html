@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Html Assignment</title>
+	<style type="text/css">
+		#tbl {
+			font-family: Arial, Helvetica, sans-serif;
+			border-collapse: collapse;
+			width: 50%;
+		}
+	</style>
+</head>
+<body>
+	<!-- <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/W3Schools_logo.png" height="50px" width="250px"> -->
+	<p><span style="font-size: 35px;font-style: normal;">w</span><span style="font-size: 40px;">3</span><span style="font-size: 35px;font-style: normal;">schools</span><span style="color: green;font-style: normal;font-size: 35px;">.com</span>&nbsp;&nbsp;
+		<span style="margin-bottom: 100px;text-transform: capitalize;">The World's Largest webdeveloper Site</span>
+	</p>
+	<!-- <section>
+		<a href="#"><u>HTML</u></a>&nbsp;&nbsp;&nbsp;
+		<a href="#"><u>CSS</u></a>&nbsp;&nbsp;
+		<a href="#"><u>JAVASCRIPT</u></a>&nbsp;&nbsp;
+		<a href="#"><u>PYTHON</u></a>
+	</section> -->
+	<ul style="list-style-type: none;">
+		<li style="display: inline;"><a href="https://www.w3schools.com/html/default.asp" style="color: black;font-size: 20px;">HTML</a></li>&nbsp;&nbsp;
+		<li style="display: inline;"><a href="https://www.w3schools.com/css/default.asp" style="color: black;font-size: 20px;">CSS</a></li>&nbsp;&nbsp;
+		<li style="display: inline;"><a href="https://www.w3schools.com/js/default.asp" style="color: black;font-size: 20px;">JAVASCRIPT</a></li>&nbsp;&nbsp;
+		<li style="display: inline;"><a href="https://www.w3schools.com/python/default.asp" style="color: black;font-size: 20px;">PYTHON</a></li>
+	</ul>
+
+	<h3>HTML Introduction</h3>
+	<h3>HTML is the standard markup language for creating Web pages.</h3>
+	<ol>
+		<li>What is html</li>
+		<li>What is HTML Element</li>
+		<li>What is Web browsers</li>
+	</ol>
+	<h2>What Is Html ?</h2>
+	<ul>
+		<li>HTML stands for Hyper Text Markup Language</li>
+		<li>HTML is the standard markup language for creating Web pages</li>
+		<li>HTML describes the structure of a Web page</li>
+		<li>HTML consists of a series of elements</li>
+		<li>HTML elements tell the browser how to display the content</li>
+		<li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+		</li>
+	</ul>
+
+	<h2>What is an HTML Element ?</h2>
+	<p>An HTML Element is defined by a start tag, some content and an end tag.</p>
+	<p>&nbsp;&lt;tagname&gt; Content goes here... &lt;/tagname&gt;</p>
+	<h5>The HTML element is everything from the start tag to the end tag:</h5>
+	<p>&nbsp;&lt;h1&gt; My First Heading. &lt;/h1&gt;</p>
+	<p>&nbsp;&lt;p&gt; My First Paragraph. &lt;/p&gt;</p>
+
+	<table id="tbl" border="1px solid border;" cellpadding="5px">
+		<tr>
+			<th>Start Tag</th>
+			<th>Element Content</th>
+			<th>End Tag</th>
+		</tr>
+		<tr>
+			<td>&lt;h1&gt;</td>
+			<td>My First Heading</td>
+			<td>&#60;/h1&#62;</td>
+		</tr>
+		<tr>
+			<td>&#60;p&#62;</td>
+			<td>My First Paragraph</td>
+			<td>&#60;/p&#62;</td>
+		</tr>
+		<tr>
+			<td>&#60;br&#62;</td>
+			<td>none</td>
+			<td>none</td>
+		</tr>
+	</table>
+
+	<h2>Web Browsers</h2>
+	<p>The purpose of web browsers (Chrome,Edge,Firefox,Safari) is to read html documents and display them correctely.</p>
+	<p>A browser does not display the HTML tags, but uses them to determine how to displa the documnet:</p>
+	<img src="Screenshot.png" style="margin-left: 250px;" width="600px;"><br>
+	<form method="post" action="#" style="margin-left: 50px;">
+		<h2>Submit a Review</h2>
+		<label>Name:</label>&nbsp;<input type="text" name="name" placeholder="Aditya Narayan"><br><br>
+		<label>Gender:</label>
+		<input type="radio" name="Gender"><label>Male</label>
+		<input type="radio" name="Gender"><label>Female</label>
+		<input type="radio" name="Gender"><label>Others</label><br><br>
+		<label>Rate it:</label>
+		<select>
+			<option>Good</option>
+			<option selected="">Very Good</option>
+			<option>Bad</option>
+			<option>Average</option>
+		</select><br>
+		<textarea placeholder="please add a review" rows="4" cols="25"></textarea><br><br>
+		<button type="submit">Submit</button>
+<!-- 		<input type="button" name="submit" value="Submit"> -->
+	</form>
+
+</body>
+</html>
